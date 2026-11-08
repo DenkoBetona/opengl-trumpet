@@ -21,6 +21,8 @@
 Нужни са CMake, Git и C++17 компилатор (Visual Studio с „Desktop development with C++“ или GCC).
 CMake сам изтегля GLFW и miniaudio.
 
+На Windows: двоен клик на `build.bat` – компилира и стартира програмата.
+
 ```
 cmake -B build
 cmake --build build --config Release
